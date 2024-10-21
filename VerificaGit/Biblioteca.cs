@@ -9,7 +9,6 @@ namespace VerificaGit
 {
     internal class Biblioteca(string nome, string indirizzo, string apertura, string chiusura)
     {
-
-
+        Libro[] elencoLibri; 
     }
 }
