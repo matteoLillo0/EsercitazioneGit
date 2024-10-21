@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace VerificaGit
 {
     internal class Libro(string autore, string titolo, int anno, string editore, int nPagine)
-    {      
+    {   
 
         public string toString()
         {
@@ -24,7 +24,7 @@ namespace VerificaGit
 
             if (nPagine > 100 && nPagine < 200) return 2;
 
-            else return 3;            
+            else return 3;  
              
         }
     }
